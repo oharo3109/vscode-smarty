@@ -1,49 +1,58 @@
 {
-	"name": "smarty",
-	"displayName": "Smarty",
-	"license": "GPL",
-	"description": "Syntax highlighting for the Smarty templating language.",
-	"version": "0.4.0",
-	"icon": "images/logo.png",
-	"publisher": "imperez",
-	"engines": {
-		"vscode": "^0.10.x"
-	},
-	"categories": [
-		"Languages",
-		"Snippets"
-	],
-	"keywords": [
-		"smarty",
-		"php",
-		"syntax",
-		"snippets"
-	],
-	"bugs": {
+    "name": "smarty",
+    "displayName": "Smarty",
+    "license": "GPL",
+    "description": "Syntax highlighting for the Smarty templating language.",
+    "version": "0.4.0",
+    "icon": "images/logo.png",
+    "publisher": "imperez",
+    "engines": {
+        "vscode": "^0.10.x"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "smarty",
+        "php",
+        "syntax",
+        "snippets"
+    ],
+    "bugs": {
         "url": "https://github.com/jens1o/vscode-smarty/issues"
     },
-	"homepage": "https://github.com/jens1o/vscode-smarty/blob/master/README.md",
+    "homepage": "https://github.com/jens1o/vscode-smarty/blob/master/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/jens1o/vscode-smarty.git"
     },
-	"contributes": {
-		"languages": [{
-			"id": "smarty",
-			"aliases": ["Smarty", "smarty"],
-			"extensions": [".tpl",".smarty",".html.smarty"],
-			"configuration": "./smarty.configuration.json"
-		}],
-		"grammars": [{
-			"language": "smarty",
-			"scopeName": "text.html.smarty",
-			"path": "./syntaxes/smarty.tmLanguage"
-		}],
-		"snippets": [
-			{
-				"language": "smarty",
-				"path": "./snippets/snippets.json"
-			}
-		]
-	}
+    "contributes": {
+        "languages": [
+            {
+                "id": "html",
+                "aliases": [
+                    "html",
+                    "html"
+                ],
+                "extensions": [
+                    ".html"
+                ],
+                "configuration": "./smarty.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "html",
+                "scopeName": "text.html.smarty",
+                "path": "./syntaxes/smarty.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
 }
