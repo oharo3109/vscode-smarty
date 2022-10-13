@@ -3,7 +3,7 @@
     "displayName": "Html-Smarty",
     "license": "GPL",
     "description": "Syntax highlighting for the Smarty templating language.",
-    "version": "0.4.1",
+    "version": "1.0.0",
     "icon": "images/logo.png",
     "publisher": "oharo",
     "engines": {
