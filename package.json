@@ -1,11 +1,11 @@
 {
-    "name": "smarty",
-    "displayName": "Smarty",
+    "name": "html-smarty",
+    "displayName": "Html-Smarty",
     "license": "GPL",
     "description": "Syntax highlighting for the Smarty templating language.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "icon": "images/logo.png",
-    "publisher": "imperez",
+    "publisher": "oharo",
     "engines": {
         "vscode": "^0.10.x"
     },
@@ -19,14 +19,6 @@
         "syntax",
         "snippets"
     ],
-    "bugs": {
-        "url": "https://github.com/jens1o/vscode-smarty/issues"
-    },
-    "homepage": "https://github.com/jens1o/vscode-smarty/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/jens1o/vscode-smarty.git"
-    },
     "contributes": {
         "languages": [
             {
