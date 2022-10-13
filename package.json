@@ -2,9 +2,8 @@
     "name": "html-smarty",
     "displayName": "Html-Smarty",
     "license": "GPL",
-    "description": "Syntax highlighting for the Smarty templating language.",
+    "description": "HTML + Smarty",
     "version": "1.0.0",
-    "icon": "images/logo.png",
     "publisher": "oharo",
     "engines": {
         "vscode": "^0.10.x"
@@ -23,13 +22,8 @@
         "languages": [
             {
                 "id": "html",
-                "aliases": [
-                    "html",
-                    "html"
-                ],
-                "extensions": [
-                    ".html"
-                ],
+                "aliases": ["html"],
+                "extensions": [".html", ".tpl"],
                 "configuration": "./smarty.configuration.json"
             }
         ],
